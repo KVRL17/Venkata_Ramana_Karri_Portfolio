@@ -22,7 +22,7 @@ const Projects = [
     {
         project_title:"WeatherAPP",
         description:"Built a weather app using React.js to display current weather conditions and forecasts for any location, providing users with up-to-date weather information at their fingertips.",
-        visit:""
+        visit:"https://wheather-app-coral.vercel.app/"
     }
 ]
 
