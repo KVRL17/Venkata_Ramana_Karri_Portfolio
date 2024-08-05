@@ -30,7 +30,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/Attendenceapp"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
@@ -50,7 +50,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/netflix_clone"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
@@ -70,7 +70,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/Venkata_Ramana_Karri_Portfolio"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
@@ -93,7 +93,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/FightingGame"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
@@ -113,7 +113,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/WheatherApp"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
@@ -133,7 +133,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/SuperheroApp"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
@@ -153,7 +153,7 @@ function Projects() {
             <IconButton 
               sx={{ marginTop: '10px', color: 'grey' }} 
               component={RouterLink} 
-              to="https://github.com/your-github-repo-link"
+              to="https://github.com/KVRL17/All-Projects"
             >
               <GitHubIcon />
               <Typography variant="button">View Code</Typography>
