@@ -11,6 +11,8 @@ import Container from 'react-bootstrap/Container';
 import { Nav } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
 import R from '../Main/R.png';
+import RootApp from '../projects/projects';
+import Project from '../projects/projects';
 
 const EmailLink = ({ email }) => {
     const composeMailLink = `mailto:${email}`;
@@ -149,7 +151,7 @@ const Main = () => {
         </div>
 
         <div style={{ color: "white", backgroundColor: "#080808", overflow: "hidden", textAlign: "justify" }} id='Myprojects'>
-            <div style={{ marginTop: "40px", marginLeft: "100px", marginRight: "100px", marginBottom: "40px", alignItems: "center" }}>
+            {/* <div style={{ marginTop: "40px", marginLeft: "100px", marginRight: "100px", marginBottom: "40px", alignItems: "center" }}>
                 <div style={{ animation: animate ? 'slideUp 2s' : 'none' }}>
                     <br />
                     <div className="row">
@@ -158,7 +160,8 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <Project />
         </div>
 
         <div style={{ color: "white", backgroundColor: "#1b1b1b", overflow: "hidden", textAlign: "justify" }} id='Activites'>
