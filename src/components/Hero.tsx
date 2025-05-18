@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
               href="#about"
               className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-md transition-colors duration-300"
             >
-              Learn More
+              Know More
             </a>
             <a 
               href="#contact"
