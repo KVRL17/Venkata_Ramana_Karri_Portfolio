@@ -36,15 +36,15 @@ export const Contact: React.FC = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin size={20} />,
-      href: 'https://www.linkedin.com/in/ramana-karri-189b17224/',
-      label: 'ramana-karri'
+      href: 'https://www.linkedin.com/in/venkata-ramana-karri/',
+      label: 'venkata-ramana-karri'
     },
-    {
-      name: 'Instagram',
-      icon: <Instagram size={20} />,
-      href: 'https://www.instagram.com/official_rk_17/',
-      label: '@official_rk_17'
-    },
+    // {
+    //   name: 'Instagram',
+    //   icon: <Instagram size={20} />,
+    //   href: 'https://www.instagram.com/official_rk_17/',
+    //   label: '@official_rk_17'
+    // },
     {
       name: 'GitHub',
       icon: <Github size={20} />,
@@ -80,12 +80,22 @@ export const Contact: React.FC = () => {
           
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-white mb-4">Quick Message</h3>
-            <form>
+            <form 
+              action="https://formsubmit.co/venkataramanakarri.official@gmail.com" 
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_autoresponse" value="Thank you for reaching out! I will get back to you soon." />
+              {/* <input type="hidden" name="_next" value="https://your-portfolio-url.com/thank-you" /> */}
+              
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-300 mb-2">Name</label>
                 <input 
                   type="text" 
                   id="name" 
+                  name="name"
+                  required
                   className="w-full bg-gray-700 text-white rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   placeholder="Your name"
                 />
@@ -95,6 +105,8 @@ export const Contact: React.FC = () => {
                 <input 
                   type="email" 
                   id="email" 
+                  name="email"
+                  required
                   className="w-full bg-gray-700 text-white rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   placeholder="Your email"
                 />
@@ -103,7 +115,9 @@ export const Contact: React.FC = () => {
                 <label htmlFor="message" className="block text-gray-300 mb-2">Message</label>
                 <textarea 
                   id="message" 
+                  name="message"
                   rows={4}
+                  required
                   className="w-full bg-gray-700 text-white rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   placeholder="Your message"
                 ></textarea>
